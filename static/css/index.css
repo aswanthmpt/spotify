@@ -1,0 +1,185 @@
+ body{
+    background-color: black;
+}
+.side_row{
+    /* display: flex; */
+    /* flex-direction: column; */
+    height: 88vh;
+    background-color: rgb(0, 0, 0);
+    /* padding: 2%; */
+    
+    
+}
+.navbtn{
+    /* background-color: black; */
+    color: white;
+    /* border-radius: 40%; */
+    width: 100%;
+    height: 6vh;
+}
+.nav_one h5{
+    font-size: 17px;
+}
+a{
+    text-decoration: none;
+    text-decoration-color: none;
+}
+.navbar{
+    width: 100%;
+}
+button{
+    border: 0px;
+    /* padding: 9% 9%; */
+}
+.navbtn2{
+    /* height: 4vh; */
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+    border-radius: 35%;
+    /* width: 100%; */
+}
+.s_one{
+    height: 25%;
+    margin: 2%;
+}
+.s_one h3{
+    color: white;
+    font-size: 100%;
+}
+.s_one img{
+    width: 11%;
+}
+.s_two{
+    height: 38%;
+    margin: 2%;
+}
+.s_three{
+    height: 30vh;
+    margin: 0;
+}
+.nav_one{
+    width: 100%;
+    background-color: aliceblue;
+    /* position: fixed; */
+}
+.nav_one a{
+    color: rgb(183, 183, 183);
+}
+.nav_one a:hover{
+    color: rgb(255, 255, 255);
+}
+.footer{
+    background-image: linear-gradient(to right, rgb(230, 0, 255) , rgb(76, 0, 255));
+    width: 100%;
+    height: 8vh;
+}
+.s_three h6{
+    font-size: 100%;
+    color: white;
+
+}
+.indone h2{
+    color: white;
+    font-size: 100%;
+}
+.indone h3{
+    color: rgb(207, 205, 205);
+    font-size: 100%;
+}
+.cardone{
+    color: white;
+    width: 14vw;
+    height: 40vh;
+    border-radius: 6px;
+    transition-duration: .3s;
+}
+.firstplaylist{
+    background-color: #3d3d3d;
+}
+.overflow{
+    /* background: #4CAF50; */
+    color: white;
+    /* padding: 15px; */
+    /* width: 100%;
+    height: 30vh;
+    overflow: scroll; */
+    height: 200px;
+    border: 1px solid black;
+    overflow: scroll;
+    overflow-x: hidden;
+    /* border: 1px solid #ccc; */
+}
+.cardone:hover{
+    background-color: rgb(55, 54, 54);
+}
+.cardone img{
+    width: 100%;
+    height: 20vh;
+    border-radius: 6px;
+}
+/* CSS */
+.button-18 {
+    align-items: center;
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+  }
+  
+  .button-18:hover,
+  .button-18:focus { 
+    background-color: #e6e6e6;
+    color: #121212;
+  }
+  .spa{
+    color: white;
+  }
+.vl{
+    border-left: 3px solid rgb(184, 184, 184);
+    height: 29px;
+    
+}
+.previous {
+    /* background-color: #f1f1f1; */
+    color: rgb(255, 255, 255);
+    height: 3vh;
+    /* font-size: 8rem; */
+  }
+  
+  .next {
+    /* background-color: #04AA6D; */
+    color: white;
+  }
+.arrow a{
+    text-decoration: none;
+  /* display: inline-block; */
+  padding: 3px 6px;
+}
+.arrow{
+    /* background-color: aquamarine; */
+    height: 6vh;
+    font-size: 2rem;
+    /* padding-top: 0%; */
+

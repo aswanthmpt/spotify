@@ -1,0 +1,34 @@
+{% load static %}
+<div class="nav_one bg-dark container-fluid">
+<nav class="navbar  navbar-expand-lg ">
+    <div class="container-fluid">
+      <div class="arrow ">
+      <a href="#" class="previous round"><</a>
+      <a href="#" class="next round">></a>
+    </div > 
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <div class="d-flex  ">
+
+          <a class="navbar-brand mt-3" href="#"><h5>Premium</h5></a>
+          <a class="navbar-brand mt-3" href="#"><h5>Support</h5></a>
+          <a class="navbar-brand mt-3" href="#"><h5>Download</h5></a>
+
+          <div class="vl my-2"></div>
+        </div>
+          {% if user.is_authenticated %}
+          <span class="spa mx-4 my-2"><h5>{{user}}</h5></span>
+          <a href="{% url 'auth:logout' %}"><button class="button-18" role="button">Log out</button></a>
+          {% else %}
+
+          <a class=""   href="{% url 'auth:signin' %}"><button class="navbtn px-3 bg-dark ">Sign up</button></a>
+          <!-- HTML !-->
+        <a href="{% url 'auth:login' %}"><button class="button-18" role="button">Log in</button></a>
+        {% endif %}
+
+     
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
